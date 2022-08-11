@@ -1,0 +1,5 @@
+services:
+  webapp:
+    image: scrapy
+    ports:
+      - "8080:5000"

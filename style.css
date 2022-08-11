@@ -1,0 +1,50 @@
+body{
+    font-family: calibri;
+}
+.dataframe{
+    text-align: center;
+    align-content: center;
+    font-family: calibri;
+}
+h2, h3{
+    font-family: calibri;
+}
+h2{
+    font-size: 18pt;
+}
+table{
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 2px;
+    border-spacing: 0px;
+}
+tr, th, td{
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+    width: content;
+}
+th{
+    text-align: center;
+    background-color: lightgray;
+    color:black;
+}
+tr:hover{
+    background-color: darkslategrey;
+    transition: 0s;
+    color: white;
+}
+button{
+    color: azure;
+    background-color: darkslategrey;
+    font-size: 14pt;
+    border: none;
+    opacity: 0.9;
+    padding: 10px;
+}
+button:hover{
+    transition: 0.2s;
+    opacity: 0.5;
+}
